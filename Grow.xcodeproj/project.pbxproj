@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BFA8C03B70B7C5990164EB2 /* Pods_Grow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF218D6EB8C8396C6850024 /* Pods_Grow.framework */; };
+		6A936F17ED7B730604E10E77 /* Pods_GrowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E523643B1DBD29DBAB5BC9E /* Pods_GrowTests.framework */; };
 		7552E8522CA2E86C008D3867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552E8512CA2E86C008D3867 /* AppDelegate.swift */; };
 		7552E8542CA2E86C008D3867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552E8532CA2E86C008D3867 /* SceneDelegate.swift */; };
 		7552E8562CA2E86C008D3867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552E8552CA2E86C008D3867 /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 		7552E8692CA2E86D008D3867 /* GrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552E8682CA2E86D008D3867 /* GrowTests.swift */; };
 		7552E8732CA2E86D008D3867 /* GrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552E8722CA2E86D008D3867 /* GrowUITests.swift */; };
 		7552E8752CA2E86D008D3867 /* GrowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552E8742CA2E86D008D3867 /* GrowUITestsLaunchTests.swift */; };
+		759262082CA2F3AB003E4BA2 /* plant.json in Resources */ = {isa = PBXBuildFile; fileRef = 759262072CA2F3AB003E4BA2 /* plant.json */; };
+		759262132CA2F719003E4BA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759262112CA2F719003E4BA2 /* HomeViewController.swift */; };
+		759262142CA2F719003E4BA2 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 759262122CA2F719003E4BA2 /* HomeViewController.xib */; };
+		A00E51DBA9D8FD3E34F7E7D5 /* Pods_Grow_GrowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA32617B0B3FD28E7799EC81 /* Pods_Grow_GrowUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC3BB0209C00688884B3E1A /* Pods-GrowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrowTests.release.xcconfig"; path = "Target Support Files/Pods-GrowTests/Pods-GrowTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E523643B1DBD29DBAB5BC9E /* Pods_GrowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C500D4E7E6A8CC7B17283F /* Pods-Grow-GrowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grow-GrowUITests.release.xcconfig"; path = "Target Support Files/Pods-Grow-GrowUITests/Pods-Grow-GrowUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7552E84E2CA2E86C008D3867 /* Grow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7552E8512CA2E86C008D3867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7552E8532CA2E86C008D3867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		7552E86E2CA2E86D008D3867 /* GrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7552E8722CA2E86D008D3867 /* GrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowUITests.swift; sourceTree = "<group>"; };
 		7552E8742CA2E86D008D3867 /* GrowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		759262072CA2F3AB003E4BA2 /* plant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plant.json; sourceTree = "<group>"; };
+		759262112CA2F719003E4BA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		759262122CA2F719003E4BA2 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		84F0E2109633C65D8D0A6A9D /* Pods-Grow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grow.release.xcconfig"; path = "Target Support Files/Pods-Grow/Pods-Grow.release.xcconfig"; sourceTree = "<group>"; };
+		8B8C0B1B4C1518E129D9EBDA /* Pods-Grow-GrowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grow-GrowUITests.debug.xcconfig"; path = "Target Support Files/Pods-Grow-GrowUITests/Pods-Grow-GrowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BBBE8EB4B6F2B8E46D1C42F /* Pods-Grow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grow.debug.xcconfig"; path = "Target Support Files/Pods-Grow/Pods-Grow.debug.xcconfig"; sourceTree = "<group>"; };
+		BA32617B0B3FD28E7799EC81 /* Pods_Grow_GrowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grow_GrowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E0DC2CD51DB0D495F2A9A9 /* Pods-GrowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrowTests.debug.xcconfig"; path = "Target Support Files/Pods-GrowTests/Pods-GrowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF218D6EB8C8396C6850024 /* Pods_Grow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFA8C03B70B7C5990164EB2 /* Pods_Grow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A936F17ED7B730604E10E77 /* Pods_GrowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00E51DBA9D8FD3E34F7E7D5 /* Pods_Grow_GrowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53417437EEFFFE334E70EE8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFF218D6EB8C8396C6850024 /* Pods_Grow.framework */,
+				BA32617B0B3FD28E7799EC81 /* Pods_Grow_GrowUITests.framework */,
+				5E523643B1DBD29DBAB5BC9E /* Pods_GrowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7552E8452CA2E86C008D3867 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				7552E8672CA2E86D008D3867 /* GrowTests */,
 				7552E8712CA2E86D008D3867 /* GrowUITests */,
 				7552E84F2CA2E86C008D3867 /* Products */,
+				E8168A89A03AA4AD818B4C0C /* Pods */,
+				53417437EEFFFE334E70EE8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +134,12 @@
 			children = (
 				7552E8512CA2E86C008D3867 /* AppDelegate.swift */,
 				7552E8532CA2E86C008D3867 /* SceneDelegate.swift */,
-				7552E8552CA2E86C008D3867 /* ViewController.swift */,
-				7552E8572CA2E86C008D3867 /* Main.storyboard */,
+				759262092CA2F59A003E4BA2 /* Splash Screen */,
+				7592620E2CA2F69B003E4BA2 /* Home Screen */,
 				7552E85A2CA2E86D008D3867 /* Assets.xcassets */,
 				7552E85C2CA2E86D008D3867 /* LaunchScreen.storyboard */,
 				7552E85F2CA2E86D008D3867 /* Info.plist */,
+				7592620C2CA2F662003E4BA2 /* Helper */,
 			);
 			path = Grow;
 			sourceTree = "<group>";
@@ -127,6 +161,77 @@
 			path = GrowUITests;
 			sourceTree = "<group>";
 		};
+		759262092CA2F59A003E4BA2 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7592620B2CA2F5D0003E4BA2 /* Controller */,
+				7592620A2CA2F5BA003E4BA2 /* View */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		7592620A2CA2F5BA003E4BA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7552E8572CA2E86C008D3867 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7592620B2CA2F5D0003E4BA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7552E8552CA2E86C008D3867 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7592620C2CA2F662003E4BA2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				759262072CA2F3AB003E4BA2 /* plant.json */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7592620E2CA2F69B003E4BA2 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				759262102CA2F6B0003E4BA2 /* Controller */,
+				7592620F2CA2F6A8003E4BA2 /* View */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		7592620F2CA2F6A8003E4BA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				759262122CA2F719003E4BA2 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		759262102CA2F6B0003E4BA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				759262112CA2F719003E4BA2 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8168A89A03AA4AD818B4C0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BBBE8EB4B6F2B8E46D1C42F /* Pods-Grow.debug.xcconfig */,
+				84F0E2109633C65D8D0A6A9D /* Pods-Grow.release.xcconfig */,
+				8B8C0B1B4C1518E129D9EBDA /* Pods-Grow-GrowUITests.debug.xcconfig */,
+				73C500D4E7E6A8CC7B17283F /* Pods-Grow-GrowUITests.release.xcconfig */,
+				F4E0DC2CD51DB0D495F2A9A9 /* Pods-GrowTests.debug.xcconfig */,
+				2DC3BB0209C00688884B3E1A /* Pods-GrowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7552E8782CA2E86D008D3867 /* Build configuration list for PBXNativeTarget "Grow" */;
 			buildPhases = (
+				D15A416E8B4DC74D3409519E /* [CP] Check Pods Manifest.lock */,
 				7552E84A2CA2E86C008D3867 /* Sources */,
 				7552E84B2CA2E86C008D3867 /* Frameworks */,
 				7552E84C2CA2E86C008D3867 /* Resources */,
+				F5CB0A33D41BCA44FA5AF6E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7552E87B2CA2E86D008D3867 /* Build configuration list for PBXNativeTarget "GrowTests" */;
 			buildPhases = (
+				B87B728D1DE355396867EF03 /* [CP] Check Pods Manifest.lock */,
 				7552E8602CA2E86D008D3867 /* Sources */,
 				7552E8612CA2E86D008D3867 /* Frameworks */,
 				7552E8622CA2E86D008D3867 /* Resources */,
@@ -169,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7552E87E2CA2E86D008D3867 /* Build configuration list for PBXNativeTarget "GrowUITests" */;
 			buildPhases = (
+				9B7249AFB110AB9CF669218B /* [CP] Check Pods Manifest.lock */,
 				7552E86A2CA2E86D008D3867 /* Sources */,
 				7552E86B2CA2E86D008D3867 /* Frameworks */,
 				7552E86C2CA2E86D008D3867 /* Resources */,
+				9995F743345840FF84FCBEFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7552E85B2CA2E86D008D3867 /* Assets.xcassets in Resources */,
+				759262082CA2F3AB003E4BA2 /* plant.json in Resources */,
+				759262142CA2F719003E4BA2 /* HomeViewController.xib in Resources */,
 				7552E85E2CA2E86D008D3867 /* Base in Resources */,
 				7552E8592CA2E86C008D3867 /* Base in Resources */,
 			);
@@ -253,6 +365,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9995F743345840FF84FCBEFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grow-GrowUITests/Pods-Grow-GrowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grow-GrowUITests/Pods-Grow-GrowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grow-GrowUITests/Pods-Grow-GrowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7249AFB110AB9CF669218B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grow-GrowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87B728D1DE355396867EF03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15A416E8B4DC74D3409519E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5CB0A33D41BCA44FA5AF6E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grow/Pods-Grow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grow/Pods-Grow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grow/Pods-Grow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7552E84A2CA2E86C008D3867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +476,7 @@
 				7552E8562CA2E86C008D3867 /* ViewController.swift in Sources */,
 				7552E8522CA2E86C008D3867 /* AppDelegate.swift in Sources */,
 				7552E8542CA2E86C008D3867 /* SceneDelegate.swift in Sources */,
+				759262132CA2F719003E4BA2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,19 +653,22 @@
 		};
 		7552E8792CA2E86D008D3867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBBE8EB4B6F2B8E46D1C42F /* Pods-Grow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FXH2MU5AG6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Grow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,27 +676,34 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kedarpandya.Grow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7552E87A2CA2E86D008D3867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F0E2109633C65D8D0A6A9D /* Pods-Grow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FXH2MU5AG6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Grow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,14 +711,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kedarpandya.Grow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7552E87C2CA2E86D008D3867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E0DC2CD51DB0D495F2A9A9 /* Pods-GrowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +744,7 @@
 		};
 		7552E87D2CA2E86D008D3867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC3BB0209C00688884B3E1A /* Pods-GrowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +765,7 @@
 		};
 		7552E87F2CA2E86D008D3867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8C0B1B4C1518E129D9EBDA /* Pods-Grow-GrowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +784,7 @@
 		};
 		7552E8802CA2E86D008D3867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C500D4E7E6A8CC7B17283F /* Pods-Grow-GrowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
